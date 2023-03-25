@@ -1,0 +1,267 @@
+
+.App{
+    width: 36rem;
+    min-height: 100hv;
+    margin: 0 auto 3rem;
+
+    background: var(--bg-page);
+
+    color: var(--c-text-primary);
+    font-family: var(--ff-page);
+}
+
+
+header{
+    height: 72rem;
+
+    position: relative;
+    overflow: hidden; 
+}
+
+.desktopHeader-container{
+    display: none;
+}
+
+    nav{
+        height: 8rem;
+        padding: 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .logo{
+            width: 3.1rem;
+            height: 2.8rem;
+        }
+
+        .text-logo{
+            width: 8.6rem;
+            height: 1.1rem;
+        }
+
+        .wrappedButton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menuButton{
+            width: 4rem;
+            height: 4rem;
+            border-radius: .8rem;
+            background: var(--bg-button-menu);
+            
+            border: none;
+            cursor: pointer;
+        }
+
+        .bt-menuMobile{
+            background-image: url('../images/ico-hamburger.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1.6rem;
+        }
+
+        .bt-closeMobile{
+            font-size: 1.6rem;
+        }
+
+            .container-listMenu{
+                position: absolute;
+                width: 36rem;
+                height: 19rem;
+                left: 0;
+                top: 8rem;
+
+                background: var(--bg-menu);
+                border-radius: 0px 0px 2rem 2rem;
+            }
+            .line{
+                width: 31.1rem;
+                opacity: 0.2;
+                border: 1px solid #FFFFFF;
+                margin: 0 auto;
+            }
+
+            .listMenu{
+                list-style: none;
+                padding: 2rem;
+
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+                .listMenu li{
+                    font-weight: 700;
+                    font-size: 1.8rem;
+                    line-height: 110%;
+                    letter-spacing: -0.02em;
+                }
+                    .listMenu a{
+                        color: var(--c-text-primary);
+                        opacity: 0.5;
+                        text-decoration: none;
+
+                        transition: opacity .5s;
+                    }
+                        .listMenu a:hover{
+                            opacity: 1;
+                        }
+
+    .container-network{
+        margin-top: 5.2rem;
+        padding: 0 2rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+        .friends{
+            height: 2.4rem;
+        }
+
+
+    .title{
+        padding: 0 2rem;
+        margin-top: 3.5rem;
+
+        font-weight: 700;
+        font-size: 4.4rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    }
+    
+.container-accessNow{
+    position: absolute;
+    margin-top: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+
+    width: 87rem;
+    height: 32rem;
+
+    left: -25.5rem;
+    top: 36.7rem;
+}
+
+    .boxAccessNow{
+        width: 27.9rem;
+        height: 25.5rem;
+
+        border-radius: 2rem;
+        background: var(--bg-box-header);
+    }
+        .box-middle{
+            position: relative;
+            background: var(--bg-box-special);
+        }
+        .dog{
+            position: absolute;
+            left: 21px;
+            top: -2.2rem; 
+
+        }
+        .acessButton{
+            position: absolute;
+            width: 23.9rem;
+            height: 5.5rem;
+            left: 2rem;
+            top: 17rem;    
+
+            border-radius: .8rem;
+            border: none;
+            background: var(--bg-button-menu);
+
+            font-family: var(--ff-page);
+            font-size: 1.4rem;
+            line-height: 1.5rem;
+            font-weight: 800;
+            color: var(--c-text-secundary);
+            cursor: pointer;
+
+            transition: background .5s;
+        }
+
+        .acessButton:hover{
+            background: #e8e8e8;
+        }
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-images{ display: none; }
+        
+    .caption{
+        width: 32rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+
+        color: var(--c-text-secundary);
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 110%;
+
+        letter-spacing: -0.02em;
+    }
+
+    .versionDesktopCaption{display: none;}
+
+    .wrappedBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .box{
+        width: 32rem;
+        height: 19.7rem;
+        padding: 3rem;
+
+        background: var(--bg-box);
+        border: 1px solid rgba(241, 81, 86, 0.3);
+        border-radius: 2rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+
+    }
+
+        .box img{
+            width: 3rem;
+            height: 3.3rem;
+        }
+
+        .box p{
+            width: 22.3rem;
+            height: 9.1rem;
+            color: var(--c-text-box);
+            padding-top: 1.5rem;
+
+            letter-spacing: -0.02em;
+            line-height: 110%;
+            font-size: 1.4rem;
+
+        }
+
+        .specialMarking{
+            font-weight: normal;   
+        }
+
+    .container-view{
+        width: 100%;
+        margin-top: 7.5rem;
+
+    }

@@ -1,0 +1,49 @@
+@import './mobile.css';
+@import './desktop.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --ff-page: 'Nunito', sans-serif;
+
+    --bg-page: #ffffff;
+    --bg-header: #F15156;
+    --bg-menu: #E44449;
+    --bg-box: #FDECED;
+    --bg-button-menu: #ffffff;
+    --bg-box-header: linear-gradient(0deg, #E44449, #E44449), url(michael-g-pNxQi8YRAVk-unsplash.jpg), #D9D9D9;
+    --bg-box-special: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
+    --bg-container-desktop: linear-gradient(180deg, #fff7f8 0%, rgba(248, 233, 235, 0) 100%);
+
+    --c-text-primary: #ffffff;
+    --c-text-secundary: #0D3B66;
+    --c-text-box: #000000;
+    --c-ico-buttonClose: #F15156;
+
+}
+
+.disabled{
+    display: none;
+}
+
+header{
+    background: var(--bg-header);
+}
+
+    nav{
+        background: var(--bg-menu);
+    }
+
+        .wrapped-logo{
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+        }

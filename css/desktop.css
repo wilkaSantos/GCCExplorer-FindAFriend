@@ -1,0 +1,256 @@
+@media(min-width: 1000px){
+
+    .App{
+        width: 100%;
+    }
+
+    header{
+        height: 82rem;
+    }
+
+        .mobileHeader-container,
+        .container-view{
+            display: none;
+        }
+
+        .desktopHeader-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container-top{
+            width: 85%;
+            height: 8rem;
+            padding-top: 4rem;
+            margin: 0 auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+            .wrappedLogo-desktopVersion{
+                display: flex;
+                align-items: center;
+                gap: .9rem;
+                
+            } 
+
+            .logo-desktopVersion{
+                width: 4.4rem;
+                height: 4rem;
+            }
+            .text-logo-desktopVersion{
+                width: 12.2rem;
+                height: 1.6rem;
+            }
+
+            .desktopListMenu{
+                list-style: none;
+                width: 77.1rem;
+                height: 2rem;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+            }
+                .desktopListMenu a{
+                    text-decoration: none;
+
+                    font-size: 1.8rem;
+                    line-height: 110%;
+                    letter-spacing: -0.02em;
+                    color: var(--c-text-primary);
+                    opacity: 0.5;
+
+                    transition: opacity 1s;
+                }
+                .desktopListMenu a:hover{
+                    font-weight: 700;
+                    opacity: 1;
+                }
+
+        .container-bottom{
+            width: 100%;
+            height: 100vh;
+            margin-top: 11rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+            .wrappedDesktopHeader{
+                width: 80rem;
+                height: 100%;
+            }
+
+            .dataDesktopHeader{
+                display: flex;
+                flex-direction: column;
+
+                padding: 4rem 0 0  11.2rem;
+            }
+
+            .containerNetwork-desktopVersion{
+                display: flex;
+                align-items: center;
+                gap: .8rem;
+
+                margin-bottom: 7.2rem;           
+            }
+                .friends-desktopVersion{
+                    height: 3.2rem;
+                }
+
+                .containerNetwork-desktopVersion p{
+                    font-size: 1.6rem;
+                    line-height: 3.4rem;
+                }
+
+                .title-desktopVersion{
+                    width: 51.9rem;
+                    margin-bottom: 8rem;
+
+                    font-size: 7.2rem;
+                    line-height: 110%; 
+                    letter-spacing: -0.02em;
+                }
+
+                .infoText-desktopVersion{
+                    width: 40.7rem;
+
+                    font-size: 2.4rem;
+                    line-height: 3.4rem;
+                }
+
+            .menuDesktopHeader{
+                position: relative;
+                overflow: hidden;
+            }
+                .container-desktopVersionBox{
+                    position: absolute;
+                    margin-top: 3rem;
+
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 2rem;
+                }
+                    .desktopVersionBox{
+                        width: 59.2rem;
+                        height: 15.2rem;
+
+                        border-radius: 2rem;
+                        background: var(--bg-menu);
+                    }
+                        .mainBox{
+                            position: relative;
+                            height: 38.6rem;
+
+                            background: var(--bg-box-special);
+                            transform: matrix(-1, 0, 0, 1, 0, 0);
+
+                            grid-row: span 1;
+                            grid-column: span 1;
+                        }
+                            .desktopDog{
+                                position: absolute;
+                                width: 40.6rem;
+                                height: 48.4rem;
+
+                                top: -9.9rem;
+                                left: 5rem;
+                                transform: rotateY(180deg);
+                            }
+                            
+
+
+                    .specialBox{
+                        height: 55.7rem;
+                    }
+                    .acessBox{
+                        position: relative;
+                        margin-top: -17.2rem;
+                    }
+                        .bt-acessDesktop{
+                            position: absolute;
+                            left: 5rem;
+                            top: 4rem;
+
+                            width: 49.2rem;
+                            height: 7.2rem;
+                            
+                            font-size: 2rem;
+                            line-height: 3.4rem;
+                        }
+
+                    .downBox{
+                        margin-top: -17.2rem;
+                    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+
+    }
+
+        .conatiner-info,
+        .container-images{
+            width: 65.8rem;
+            height: 78.5rem; 
+            border-radius: 2rem;
+            
+        }
+        
+        .container-images{
+            background: var(--bg-container-desktop);
+            
+            display: flex;
+            align-items: center;
+
+        }
+
+        .conatiner-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5.5rem;
+            gap: 3.9rem;
+        }
+            .versionDesktopCaption{
+                display: initial;
+                width: 56.5rem;
+                
+                font-size: 4.8rem;
+                line-height: 110%;
+                letter-spacing: -0.02em;
+            }
+
+            .versionMobileCaption{ display: none; }
+
+            .wrappedBox{
+                width: 59.2rem;
+                
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+                .box{
+                    width: 28rem;
+                }
+                    .guideDogBox{
+                        grid-column: span 2;
+                        width: 100%;
+                    }
+
+                    .guideDogBox p{
+                       width: 41rem;
+                       padding-top: 3.7rem;
+                    }
+
+                    .specialMarking{
+                        font-weight: bolder;
+                    }
+}
+
