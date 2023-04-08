@@ -43,6 +43,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br>
 O projeto será responsivo, para que possa ser acessado por diversos dispositivos. Agora o projeto está tomando forma, pois já temos um corpo para nossa aplicação onde é apresentado mais informações sobre nossos aumigos.
 <br>
+Foi adicionada mais um sessão no nosso projeto, onde foi inserido um carrosel de imagens com alguns de nossos aumigos.
+<br>
 - [Visite o projeto](https://wilkasantos.github.io/GCCExplorer-FindAFriend/)
 <br>
 <br>

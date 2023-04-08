@@ -1,256 +1,433 @@
 @media(min-width: 1000px){
 
-    .App{
+.App{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 82rem;
+}
+
+    .mobileHeader-container,
+    .container-view{
+        display: none;
+    }
+
+    .desktopHeader-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-top{
+        width: 85%;
+        height: 8rem;
+        padding-top: 4rem;
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+
+    .wrappedLogo-desktopVersion{
+        display: flex;
+        align-items: center;
+        gap: .9rem;
+    } 
+
+    .logo-desktopVersion{
+        width: 4.4rem;
+        height: 4rem;
+    }
+    .text-logo-desktopVersion{
+        width: 12.2rem;
+        height: 1.6rem;
+    }
+
+    .desktopListMenu{
+        list-style: none;
+        width: 77.1rem;
+        height: 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .desktopListMenu a{
+        text-decoration: none;
+
+        font-size: 1.8rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: var(--c-text-primary);
+        opacity: 0.5;
+
+        transition: opacity 1s;
+    }
+        .desktopListMenu a:hover{
+            font-weight: 700;
+            opacity: 1;
+        }
+
+    .container-bottom{
         width: 100%;
+        height: 100vh;
+        margin-top: 11rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wrappedDesktopHeader{
+        width: 80rem;
+        height: 100%;
     }
 
-    header{
-        height: 82rem;
+    .dataDesktopHeader{
+        display: flex;
+        flex-direction: column;
+
+        padding: 4rem 0 0  11.2rem;
     }
 
-        .mobileHeader-container,
-        .container-view{
-            display: none;
-        }
+    .containerNetwork-desktopVersion{
+        display: flex;
+        align-items: center;
+        gap: .8rem;
 
-        .desktopHeader-container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+        margin-bottom: 7.2rem;           
+    }
 
-        .container-top{
-            width: 85%;
-            height: 8rem;
-            padding-top: 4rem;
-            margin: 0 auto;
+    .friends-desktopVersion{
+        height: 3.2rem;
+    }
 
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            
-        }
-            .wrappedLogo-desktopVersion{
-                display: flex;
-                align-items: center;
-                gap: .9rem;
-                
-            } 
+    .containerNetwork-desktopVersion p{
+        font-size: 1.6rem;
+        line-height: 3.4rem;
+    }
 
-            .logo-desktopVersion{
-                width: 4.4rem;
-                height: 4rem;
-            }
-            .text-logo-desktopVersion{
-                width: 12.2rem;
-                height: 1.6rem;
-            }
+    .title-desktopVersion{
+        width: 51.9rem;
+        margin-bottom: 8rem;
 
-            .desktopListMenu{
-                list-style: none;
-                width: 77.1rem;
-                height: 2rem;
+        font-size: 7.2rem;
+        line-height: 110%; 
+        letter-spacing: -0.02em;
+    }
 
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                
-            }
-                .desktopListMenu a{
-                    text-decoration: none;
+    .infoText-desktopVersion{
+        width: 40.7rem;
 
-                    font-size: 1.8rem;
-                    line-height: 110%;
-                    letter-spacing: -0.02em;
-                    color: var(--c-text-primary);
-                    opacity: 0.5;
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
 
-                    transition: opacity 1s;
-                }
-                .desktopListMenu a:hover{
-                    font-weight: 700;
-                    opacity: 1;
-                }
+    .menuDesktopHeader{
+        position: relative;
+        overflow: hidden;
+    }
+    .container-desktopVersionBox{
+        position: absolute;
+        margin-top: 3rem;
 
-        .container-bottom{
-            width: 100%;
-            height: 100vh;
-            margin-top: 11rem;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-            .wrappedDesktopHeader{
-                width: 80rem;
-                height: 100%;
-            }
-
-            .dataDesktopHeader{
-                display: flex;
-                flex-direction: column;
-
-                padding: 4rem 0 0  11.2rem;
-            }
-
-            .containerNetwork-desktopVersion{
-                display: flex;
-                align-items: center;
-                gap: .8rem;
-
-                margin-bottom: 7.2rem;           
-            }
-                .friends-desktopVersion{
-                    height: 3.2rem;
-                }
-
-                .containerNetwork-desktopVersion p{
-                    font-size: 1.6rem;
-                    line-height: 3.4rem;
-                }
-
-                .title-desktopVersion{
-                    width: 51.9rem;
-                    margin-bottom: 8rem;
-
-                    font-size: 7.2rem;
-                    line-height: 110%; 
-                    letter-spacing: -0.02em;
-                }
-
-                .infoText-desktopVersion{
-                    width: 40.7rem;
-
-                    font-size: 2.4rem;
-                    line-height: 3.4rem;
-                }
-
-            .menuDesktopHeader{
-                position: relative;
-                overflow: hidden;
-            }
-                .container-desktopVersionBox{
-                    position: absolute;
-                    margin-top: 3rem;
-
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 2rem;
-                }
-                    .desktopVersionBox{
-                        width: 59.2rem;
-                        height: 15.2rem;
-
-                        border-radius: 2rem;
-                        background: var(--bg-menu);
-                    }
-                        .mainBox{
-                            position: relative;
-                            height: 38.6rem;
-
-                            background: var(--bg-box-special);
-                            transform: matrix(-1, 0, 0, 1, 0, 0);
-
-                            grid-row: span 1;
-                            grid-column: span 1;
-                        }
-                            .desktopDog{
-                                position: absolute;
-                                width: 40.6rem;
-                                height: 48.4rem;
-
-                                top: -9.9rem;
-                                left: 5rem;
-                                transform: rotateY(180deg);
-                            }
-                            
-
-
-                    .specialBox{
-                        height: 55.7rem;
-                    }
-                    .acessBox{
-                        position: relative;
-                        margin-top: -17.2rem;
-                    }
-                        .bt-acessDesktop{
-                            position: absolute;
-                            left: 5rem;
-                            top: 4rem;
-
-                            width: 49.2rem;
-                            height: 7.2rem;
-                            
-                            font-size: 2rem;
-                            line-height: 3.4rem;
-                        }
-
-                    .downBox{
-                        margin-top: -17.2rem;
-                    }
-
-    main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 2rem;
+        gap: 2rem;
+    }
+    .desktopVersionBox{
+        width: 59.2rem;
+        height: 15.2rem;
+
+        border-radius: 2rem;
+        background: var(--bg-menu);
+    }
+    .mainBox{
+        position: relative;
+        height: 38.6rem;
+
+        background: var(--bg-box-special);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    .desktopDog{
+        position: absolute;
+        width: 40.6rem;
+        height: 48.4rem;
+
+        top: -9.9rem;
+        left: 5rem;
+        transform: rotateY(180deg);
+    }
+        
+    .specialBox{
+        height: 55.7rem;
+    }
+    .acessBox{
+        position: relative;
+        margin-top: -17.2rem;
+    }
+    .bt-acessDesktop{
+        position: absolute;
+        left: 5rem;
+        top: 4rem;
+
+        width: 49.2rem;
+        height: 7.2rem;
+        
+        font-size: 2rem;
+        line-height: 3.4rem;
+    }
+
+    .downBox{
+        margin-top: -17.2rem;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+    .firstSession{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    }
+
+    .conatiner-info,
+    .container-images{
+        width: 65.8rem;
+        height: 78.5rem; 
+        border-radius: 2rem;
+        
+    }
+
+    .container-images{
+        background: var(--bg-container-desktop);
+        
+        display: flex;
+        align-items: center;
 
     }
 
-        .conatiner-info,
-        .container-images{
-            width: 65.8rem;
-            height: 78.5rem; 
-            border-radius: 2rem;
-            
-        }
+    .conatiner-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5.5rem;
+        gap: 3.9rem;
+    }
+    .versionDesktopCaption{
+        display: initial;
+        width: 56.5rem;
         
-        .container-images{
-            background: var(--bg-container-desktop);
-            
-            display: flex;
-            align-items: center;
+        font-size: 4.8rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    }
 
+    .versionMobileCaption{ display: none; }
+
+    .wrappedBox{
+        width: 59.2rem;
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .box{
+        width: 28rem;
+    }
+    .guideDogBox{
+        grid-column: span 2;
+        width: 58rem;
+    }
+
+    .guideDogBox p{
+        width: 41rem;
+        padding-top: 3.7rem;
+    }
+
+    .specialMarking{
+        font-weight: bolder;
+    }
+
+    /* = = =  SECONDY SESSION = = = */
+    
+    .title-carousel{
+        width: 41.6rem;
+
+        font-size: 4.8rem;
+        line-height: 90%;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    .container-carousel{
+        width: 121.6rem;
+        height: 62.8rem;
+
+        display: flex;
+        flex-direction: initial;
+        justify-content: center;
+
+    }
+    .bt-AcessDesktop{
+        display: initial;
+
+        width: 23.1rem;
+        height: 7.2rem;
+        border-radius: 2rem;
+        
+        margin-left: -18rem;
+    }
+
+    .bt-AcessMobile{
+        display: none;
+    }
+
+    .wrapped:nth-child(odd){
+        width: 41.7rem;
+        padding-top: 5rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 8.7rem;
+
+    }
+
+    .wrapped:nth-child(even){
+        width: 50rem;
+        padding-top: 11rem;
+        gap:4.7rem;
+
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .text-carousel{
+        width: 39rem;
+        margin-left: 11.5rem;
+        text-align: justify;
+    }
+
+
+.mobile-carousel{
+    display: none;
+}
+    .desktop-carousel{
+        width: 402px;
+        height: 261px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: all 0.4s;
+    }
+
+    .carousel-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carousel-wrapped-card{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        
+        overflow: hidden;
+        width: 25.8rem;
+        margin: 0 3.2rem;
+    }
+    
+    .carousel-card{
+        width: 38.4rem;
+        height: 20rem;
+        background: var(--bg-cards-carousel);
+        border: 0.914286px solid #F1F1F1;
+        border-radius: 1.8rem;
+    }
+
+    #current{
+        transition: all 2s;
+    }
+
+    .carousel-card img{
+        width: 25.2rem;
+        height: 14rem;
+    }
+
+    .textCard{
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 120%;
+        text-align: center;
+        color: var(--c-text-secundary);
+    }
+
+    .directionalArrows{
+        position: relative;
+        display: initial;
+        width: 7.2rem;
+        height: 7.2rem;
+
+        background: none;
+        border-radius: 1rem;
+        border: 1px solid #ffffff;
+    }
+        .directionalArrows:hover{
+            background: var(--bg-cards-carousel);
+            border: none;
         }
 
-        .conatiner-info{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 5.5rem;
-            gap: 3.9rem;
+        .directionalArrows:hover i{
+            color: var(--c-text-box);
         }
-            .versionDesktopCaption{
-                display: initial;
-                width: 56.5rem;
-                
-                font-size: 4.8rem;
-                line-height: 110%;
-                letter-spacing: -0.02em;
-            }
 
-            .versionMobileCaption{ display: none; }
+    .directionalArrows i{
+        position: absolute;
+        left: 2.2rem;
+        top: 3rem;
 
-            .wrappedBox{
-                width: 59.2rem;
-                
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-            }
-                .box{
-                    width: 28rem;
-                }
-                    .guideDogBox{
-                        grid-column: span 2;
-                        width: 100%;
-                    }
+        width: 2.4rem;
+        height: 2.4rem;
+        color: var(--c-text-primary);
+    }
 
-                    .guideDogBox p{
-                       width: 41rem;
-                       padding-top: 3.7rem;
-                    }
+    .carousel-wrapped-balls{
+        position: absolute;
+        display: initial;
+        width: 38.4rem;
+      
+        display: flex;
+        justify-content: center;
+        margin-top: 25rem;
 
-                    .specialMarking{
-                        font-weight: bolder;
-                    }
+    }
+
+    .carousel-wrapped-balls div{
+        transition: all 0.5s;
+        border: 2px solid #fff;
+        padding: 2px;
+        border-radius: 50%;
+        margin-right: .5rem;
+    }
+
+    .primary{
+        background: #fff;
+        transition: all 0.5s
+    }
+
 }
 

@@ -23,10 +23,13 @@
     --bg-box-special: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
     --bg-container-desktop: linear-gradient(180deg, #fff7f8 0%, rgba(248, 233, 235, 0) 100%);
 
+    --bg-cards-carousel: #ffffff;
+
     --c-text-primary: #ffffff;
     --c-text-secundary: #0D3B66;
     --c-text-box: #000000;
     --c-ico-buttonClose: #F15156;
+    --c-textTitle-carousel: #F4D35E;
 
 }
 

@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/global.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <script src="./js/index.js" defer></script>
+        <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+        <script src="./js/index.js" type="module" defer></script>
 
         <title>FindAFriend</title>
     </head>
@@ -88,28 +89,83 @@
                 </section>
             </header>
             <main>
-                <section class="container-images">
-                    <img src="./images/image-templateDestop.svg" alt="Imagem com vários templates">
+                <section class="firstSession">
+                    <section class="container-images">
+                        <img src="./images/image-templateDestop.svg" alt="Imagem com vários templates">
+                    </section>
+                    <section class="conatiner-info">
+                        <h2 class="caption versionMobileCaption">Um app não, uma caixinha de amigos...</h2>
+                        <h2 class="caption versionDesktopCaption">Um app não,<br> uma caixinha de amigos...</h2>
+                        <section class="wrappedBox">
+                            <div class="box">
+                                    <img src="./images/ico-dog.svg" alt="">
+                                    <p>O <strong>FindAFriend</strong> é um produto desenvolvido para você encontrar o animal de estimação ideal ao seu estilo de vida!</p>
+                            </div>
+                            <div class="box">
+                                <img src="./images/ico-cat.svg" alt="">
+                                <p><strong>ONGs</strong> cadastram os bichinhos disponíveis para adoção informando características como: porte, nível de energia, nível de independência, sociabilidade e gênero.</p>
+                            </div>
+                            <div class="box guideDogBox">
+                                <img src="./images/ico-guideDog.svg" alt="">
+                                <p><strong>Filtre os bichinhos</strong> de acordo com suas preferências e lifestyle.<br> Depois é só entrar em contato com a ONG para agendar uma visita e conhecer pessoalmente <span class="specialMarking">seu match perfeito!</span></p>
+                            </div>
+                        </section>
+                    </section>
+                    <img class="container-view" src="./images/box-bottom.svg" alt="Imagens de cachorros">
                 </section>
-                <section class="conatiner-info">
-                    <h2 class="caption versionMobileCaption">Um app não, uma caixinha de amigos...</h2>
-                    <h2 class="caption versionDesktopCaption">Um app não,<br> uma caixinha de amigos...</h2>
-                    <section class="wrappedBox">
-                        <div class="box">
-                                <img src="./images/ico-dog.svg" alt="">
-                                <p>O <strong>FindAFriend</strong> é um produto desenvolvido para você encontrar o animal de estimação ideal ao seu estilo de vida!</p>
+                <section class="secondSession">
+                    <section class="container-carousel">
+                        <div class="wrapped">
+                            <h2 class="title-carousel">Há muitos &nbsp; amigos esperando por você!</h2>
+                            <button class="buttonAcess-carousel bt-AcessDesktop">Acesse agora</button>
                         </div>
-                        <div class="box">
-                            <img src="./images/ico-cat.svg" alt="">
-                            <p><strong>ONGs</strong> cadastram os bichinhos disponíveis para adoção informando características como: porte, nível de energia, nível de independência, sociabilidade e gênero.</p>
-                        </div>
-                        <div class="box guideDogBox">
-                            <img src="./images/ico-guideDog.svg" alt="">
-                            <p><strong>Filtre os bichinhos</strong> de acordo com suas preferências e lifestyle.<br> Depois é só entrar em contato com a ONG para agendar uma visita e conhecer pessoalmente <span class="specialMarking">seu match perfeito!</span></p>
+                        <div class="wrapped">
+                            <p class="text-carousel">O FiendAFriend conecta pessoas que estão procurando&nbsp; por um animal de estimação com animais que precisam de um lar amoroso. É fácil de usar e você pode navegar por uma variedade de animais para encontrar aquele que melhor se adapta ao seu estilo de vida e necessidades.</p>
+                            <button class="buttonAcess-carousel bt-AcessMobile">Acesse agora</button>
+
+                            <div class="mobile-carousel">
+                                <div class="mobile-carousel-wrapper"> 
+                                    <div class="mobile-carousel-wrapped-card">
+                                        <div class="mobile-carousel-card" id="currentMobile">
+                                            <img src="./images/img-1-carousel.png" alt="Imagem de um gato amarelo">
+                                            <p class="mobile-textCard">Hamilton</p>
+                                        </div>
+                                        <div class="mobile-carousel-card">
+                                            <img src="./images/img-2-carousel.png" alt="Imagem de um cachorro marrom">
+                                            <p class="mobile-textCard">Cleiton</p>
+                                        </div>
+                                        <div class="mobile-carousel-card">
+                                            <img src="./images/img-3-carousel.png" alt="Imagem de um gato malhadinho">
+                                            <p class="mobile-textCard">Aldo</p>
+                                        </div>
+                                    </div>                              
+                                </div>
+                                <div class="balls"></div>
+                            </div>
+                            <div class="desktop-carousel">
+                                <div class="carousel-wrapper"> 
+                                    <button class="backButton directionalArrows"><i class="fas fa-chevron-left"></i></button>
+                                    <div class="carousel-wrapped-card">
+                                        <div class="carousel-card" id="current">
+                                            <img src="./images/img-1-carousel.png" alt="Imagem de um gato amarelo">
+                                            <p class="textCard">Hamilton</p>
+                                        </div>
+                                        <div class="carousel-card">
+                                            <img src="./images/img-2-carousel.png" alt="Imagem de um cachorro marrom">
+                                            <p class="textCard">Cleiton</p>
+                                        </div>
+                                        <div class="carousel-card">
+                                            <img src="./images/img-3-carousel.png" alt="Imagem de um gato malhadinho">
+                                            <p class="textCard">Aldo</p>
+                                        </div>
+                                    </div>
+                                    <button class="nextButton directionalArrows"><i class="fas fa-chevron-right"></i></button>
+                                </div>
+                                <div class="carousel-wrapped-balls"></div>                              
+                            </div>
                         </div>
                     </section>
                 </section>
-                <img class="container-view" src="./images/box-bottom.svg" alt="Imagens de cachorros">
             </main>
         </div>
     </body>
