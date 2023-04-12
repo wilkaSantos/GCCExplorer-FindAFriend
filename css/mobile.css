@@ -270,7 +270,11 @@ header{
 
     .container-carousel{
         width: 32rem;
+<<<<<<< HEAD
         margin: 2rem auto 0 auto; 
+=======
+        margin: 2rem auto 0 auto;
+>>>>>>> 0ad8b98abecf673d04498ee282c0b729989c87bb
         
         display: flex;
         flex-direction: column;
