@@ -22,6 +22,7 @@
     --bg-box-header: linear-gradient(0deg, #E44449, #E44449), url(michael-g-pNxQi8YRAVk-unsplash.jpg), #D9D9D9;
     --bg-box-special: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
     --bg-container-desktop: linear-gradient(180deg, #fff7f8 0%, rgba(248, 233, 235, 0) 100%);
+    --bg-footer: #E44449;
 
     --bg-cards-carousel: #ffffff;
 
@@ -50,3 +51,7 @@ header{
             align-items: center;
             gap: .6rem;
         }
+
+footer{
+    background: var(--bg-footer);
+}

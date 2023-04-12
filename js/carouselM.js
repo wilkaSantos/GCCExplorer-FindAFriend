@@ -12,7 +12,7 @@ export function carouselMobile(){
       balls.appendChild(div);
   }
   
-  document.getElementById('0').classList.add('primary');
+  document.getElementById('0').classList.add('test');
   
   for(let i = 0; i < ball.length; i++){
     ball[i].addEventListener('click', ()=>{
@@ -28,9 +28,9 @@ export function carouselMobile(){
         position =  mobCarousel.length - 1;
       }
   
-      document.querySelector('.primary').classList.remove('primary');
+      document.querySelector('.test').classList.remove('test');
       initialImage.style.marginLeft = -250 * position+'px';
-      document.getElementById(position).classList.add('primary');
+      document.getElementById(position).classList.add('test');
       
   }
   

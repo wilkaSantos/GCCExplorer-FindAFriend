@@ -43,9 +43,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br>
 O projeto será responsivo, para que possa ser acessado por diversos dispositivos. Agora o projeto está tomando forma, pois já temos um corpo para nossa aplicação onde é apresentado mais informações sobre nossos aumigos.
 <br>
+<br>
 Foi adicionada mais um sessão no nosso projeto, onde foi inserido um carrosel de imagens com alguns de nossos aumigos.
 <br>
-- [Visite o projeto](https://wilkasantos.github.io/GCCExplorer-FindAFriend/)
+<br>
+E por fim foram adicionados o uma nova Sessão ao projeto que aborda o conteúdo sobre a empresa e entre em contato. Também adicionamos o footer do projeto. Essa parte final do projeto foi muito desafiador, pois trabalhei com vários eventos no javascript que não tinha familiaridade.
+<br>
+<br>
+Estou muito satisfeita com minha evolução neste projeto, onde consegui colocar em prática vários conceitos aprendidos e pudi aprender várias outras técnicas.
+<br>
+<br>
+- [Visite o projeto]( https://wilkasantos.github.io/GCCExplorer-FindAFriend/ )
 <br>
 <br>
 ## 🔖 Layout

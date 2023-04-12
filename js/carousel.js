@@ -43,10 +43,9 @@ export function Carousel(){
         document.querySelector('.primary').classList.remove('primary');
         initial.style.marginLeft = -294 * currentPosition+'px';
         document.getElementById(currentPosition).classList.add('primary');
-        
     }
     
-    slide();
+    slide(0);
     
 
     return { backPreviousImage, goNextImage }

@@ -2,7 +2,7 @@
 .App{
     width: 36rem;
     min-height: 100hv;
-    margin: 0 auto 3rem;
+    margin: 0 auto;
 
     background: var(--bg-page);
 
@@ -194,7 +194,7 @@ header{
 
 /* = = = = FIRST SESSION = = = = */
 
-.firstSession{
+.firstSection{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,11 +266,11 @@ header{
 
     }
 
-/* = = = = SECOND SESSION = = = = */
+/* = = = = SECOND SECTION = = = = */
 
     .container-carousel{
         width: 32rem;
-        margin-top: 2rem;
+        margin: 2rem auto 0 auto; 
         
         display: flex;
         flex-direction: column;
@@ -401,3 +401,160 @@ header{
         color: var(--c-text-secundary);
     }
 
+/* = = = = THIRD SECTION = = = = */
+
+.thirdSection{
+    width: 32rem;
+    margin: 3rem auto 0;
+    overflow: hidden;
+}
+
+    .wrappedText-about{
+        height: 24rem;
+        margin-top: 3rem;
+
+        color: var(--c-text-secundary);
+    }
+
+    .title-about{
+        width: 20rem;
+        height: 6.6rem;
+        margin-bottom: 2rem;
+
+        font-size: 3rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    }
+    
+    .text-about{
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    }
+
+    .wrappedImages-about{
+        height: 28.4rem;
+        margin-top: 6rem;
+    }
+
+    .desktop-bannerContact{ display: none;}
+    .desktop-wrapped-imagesAbout{display: none;}
+
+    .slide{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cardAbout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 27.8rem;
+        height: 28.4rem;
+
+        background: var(--bg-box);
+        border-radius: 2rem;
+        border: 1px solid rgba(241, 81, 86, 0.3);
+    }
+    .cardAbout img{
+        width: 25.8rem;
+        height: 18.6rem;
+        margin: .9rem 1rem 0;
+    }
+
+    .wrapped-legend{
+        margin-top: 2.2rem;
+
+        font-size: 1.8rem;
+        line-height: 120%;
+        text-align: center;
+        color: var(--c-text-secundary);
+    }
+    .legend-title{
+        font-weight: 700;
+    }
+
+    .container-contact{
+        position: relative;
+        margin-top: 5.3rem;
+    }
+
+    .wrapped-data{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        
+        width: 19.9rem;
+        height: 14rem;
+        margin: 11rem 0 0 4.1rem;
+    }
+
+    .title-contact{
+        width: 15.5rem;
+        font-size: 3rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+
+        color: var(--c-text-primary);
+    }
+	
+    .wrapped-checkContact{
+        margin-top: 2.1rem;
+
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+    }
+	
+    #check-email{
+        width: 1.5rem;
+        height: 1.5rem;      
+    }
+	
+    .text-email{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+
+        color: var(--c-textTitle-carousel);
+    }
+
+
+
+
+footer{
+    height: 18.7rem;
+    margin-top: 3.4rem;
+    padding: 4rem 5rem 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+}
+    .footer-text-logo{
+        display: none;
+    }
+    .footer-logo{
+        width: 3.1rem;
+        height: 3.2rem;
+    }
+    .wrapped-textBottom{
+        width: 25.9rem;
+        height: 1.5rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;       
+    }
+    .wrapped-textBottom p{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 110%;
+
+        letter-spacing: -0.02em;
+    }
