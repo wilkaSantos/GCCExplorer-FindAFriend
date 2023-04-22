@@ -35,6 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 <br>
+
 ## 💻 Projeto
 <br>
 <br>
@@ -53,15 +54,19 @@ E por fim foram adicionados o uma nova Sessão ao projeto que aborda o conteúdo
 Estou muito satisfeita com minha evolução neste projeto, onde consegui colocar em prática vários conceitos aprendidos e pudi aprender várias outras técnicas.
 <br>
 <br>
-- [Visite o projeto]( https://wilkasantos.github.io/GCCExplorer-FindAFriend/ )
+
+- [Visite o projeto](https://wilkasantos.github.io/GCCExplorer-FindAFriend/)
+
 <br>
 <br>
+
 ## 🔖 Layout
 
 
 O layout do projeto encontra-se no Figma e você pode ter acesso através [DESSE LINK](https://www.figma.com/file/XlX73ewpCuNXgWtuSxvQfL/Find-A-Friend-(LP)?t=BhgHgz4l0MhWr5tV-0).
 
 <br>
+
 ## 🔒 Layout
 
 Esse projeto está sob a licença MIT.

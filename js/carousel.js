@@ -14,7 +14,7 @@ export function Carousel(){
         balls.appendChild(div);
     }
     
-    document.getElementById('0').classList.add('primary');
+    document.getElementById('0').classList.add('active');
     
     for(let i = 0; i < ballPosition.length; i++){
         ballPosition[i].addEventListener('click', ()=>{
@@ -40,9 +40,9 @@ export function Carousel(){
             currentPosition =  carousel.length - 1;
         }
     
-        document.querySelector('.primary').classList.remove('primary');
+        document.querySelector('.active').classList.remove('active');
         initial.style.marginLeft = -294 * currentPosition+'px';
-        document.getElementById(currentPosition).classList.add('primary');
+        document.getElementById(currentPosition).classList.add('active');
     }
     
     slide(0);

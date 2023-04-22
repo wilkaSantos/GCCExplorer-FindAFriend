@@ -270,11 +270,7 @@ header{
 
     .container-carousel{
         width: 32rem;
-<<<<<<< HEAD
         margin: 2rem auto 0 auto; 
-=======
-        margin: 2rem auto 0 auto;
->>>>>>> 0ad8b98abecf673d04498ee282c0b729989c87bb
         
         display: flex;
         flex-direction: column;
@@ -450,6 +446,10 @@ header{
         gap: 1rem;
     }
 
+    #currentPerson{
+        transition: all 2s;
+    }
+
     .cardAbout{
         display: flex;
         flex-direction: column;
@@ -458,9 +458,9 @@ header{
         width: 27.8rem;
         height: 28.4rem;
 
-        background: var(--bg-box);
+        background: var(--bg-cards-person);
         border-radius: 2rem;
-        border: 1px solid rgba(241, 81, 86, 0.3);
+        border: 1px solid #f9f0f0;
     }
     .cardAbout img{
         width: 25.8rem;
